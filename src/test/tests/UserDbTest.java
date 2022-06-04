@@ -28,5 +28,4 @@ public class UserDbTest extends BaseTest {
         String actualTitle = SeleniumUtils.switchToWindowAndVerifyTitle(getDriver(), extentManager);
         Assert.assertEquals(actualTitle,"User DB");
     }
-
 }
